@@ -77,6 +77,18 @@ Install-Package HslCommunication
 * java：**Intellij Idea 2018.4**
 * python: **Visual Studio Code**
 
+
+## 仓库架构说明（开源版维护重点）
+
+如果你计划在该免费开源版本上继续二次开发，建议先阅读：
+
+- 架构总览：[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
+- 维护指南：[`docs/MAINTENANCE_GUIDE.md`](docs/MAINTENANCE_GUIDE.md)
+- 中文详细文档：[`docs/Chinese.md`](docs/Chinese.md)
+- 协议专题：`docs/Siemens.md`、`docs/Melsec.md`、`docs/ModbusTcp.md`、`docs/ModbusServer.md`、`docs/Omron.md`
+
+该仓库是多工程解决方案（Net35 / Net45 / NetStandard + Demo/Test），其中 `HslCommunication_Net45` 是功能最完整、最适合作为历史项目二次维护基线的实现。
+
 ## Contact
 * Email: hsl200909@163.com
 * ![reward](https://raw.githubusercontent.com/dathlin/HslCommunication/master/imgs/support.png)
