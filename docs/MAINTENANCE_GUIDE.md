@@ -62,12 +62,12 @@
   - [ ] 连续 30 分钟稳定性
   - [ ] 异常恢复（断网/断电/设备重启）
 
-## 6. 建议补充的仓库文件
+## 6. 维护文档清单（已落地 + 可扩展）
 
-为长期维护建议新增以下文档（可逐步补齐）：
+当前已提供：
 
-- `docs/CHANGELOG_PRIVATE.md`：你们团队的私有变更日志。
-- `docs/DEVICE_MATRIX.md`：设备/型号支持矩阵（实测状态）。
+- `docs/CHANGELOG_PRIVATE.md`：你们团队的私有变更日志模板。
+- `docs/DEVICE_MATRIX.md`：设备/型号支持矩阵（含已填示例）。
 - `docs/REGRESSION_CHECKLIST.md`：统一回归清单模板。
 
 ## 7. 与现有文档的关系
